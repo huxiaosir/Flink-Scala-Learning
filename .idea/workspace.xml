@@ -4,39 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/clicks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/ClickSource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/PartitionBroadcastTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/PartitionCustomTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/PartitionReblanceTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/PartitionRescaleTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/PartitionShuffleTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToFileTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToKafkaTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SourceBoundedTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SourceCustomTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SourceKafkaTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformAggTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformFilterTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformFlatMapTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformMapTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformReduceTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformRichFuncTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/TransformUDFTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/wc/BoundedStreamWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/wc/StreamWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/wc/WordCount.scala" afterDir="false" />
+    <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToESTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToMySQLTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToRedisTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/AggregateFunctionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/FullWindowFunctionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/ProcessLateDataExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/UrlViewCountExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/WaterMarkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/WindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/EventTimeTimerTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/ProcessFunctionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/ProcessingTimeTimerTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/TopNKeyedProcessFunctionExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/TopNProcessAllWindowExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/BillCheckExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/ConnectTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/IntervalJoinExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/SplitStreamBySideOutputExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/SplitStreamTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/UnionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/WindowJoinExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/AvgTimestampExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/BroadcastStateExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/FakeWindowExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/KeyedStateTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/PeriodicPVExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/TwoStreamJoinExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,16 +91,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.joisen.chapter09" />
+      <recent name="org.joisen.chapter07" />
+      <recent name="org.joisen.chapter06" />
       <recent name="org.joisen.chapter05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinkToFileTest">
-    <configuration name="PartitionBroadcastTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter05.PartitionBroadcastTest" />
+  <component name="RunManager" selected="Application.BroadcastStateExample">
+    <configuration name="AvgTimestampExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.AvgTimestampExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionCustomTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter05.PartitionCustomTest" />
+    <configuration name="BroadcastStateExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.BroadcastStateExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionReblanceTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter05.PartitionReblanceTest" />
+    <configuration name="FakeWindowExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.FakeWindowExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionRescaleTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter05.PartitionRescaleTest" />
+    <configuration name="PeriodicPVExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.PeriodicPVExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinkToFileTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter05.SinkToFileTest" />
+    <configuration name="TwoStreamJoinExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.TwoStreamJoinExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PartitionBroadcastTest" />
-      <item itemvalue="Application.PartitionCustomTest" />
-      <item itemvalue="Application.PartitionReblanceTest" />
-      <item itemvalue="Application.PartitionRescaleTest" />
-      <item itemvalue="Application.SinkToFileTest" />
+      <item itemvalue="Application.BroadcastStateExample" />
+      <item itemvalue="Application.AvgTimestampExample" />
+      <item itemvalue="Application.FakeWindowExample" />
+      <item itemvalue="Application.PeriodicPVExample" />
+      <item itemvalue="Application.TwoStreamJoinExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SinkToFileTest" />
-        <item itemvalue="Application.PartitionCustomTest" />
-        <item itemvalue="Application.PartitionBroadcastTest" />
-        <item itemvalue="Application.PartitionRescaleTest" />
-        <item itemvalue="Application.PartitionReblanceTest" />
+        <item itemvalue="Application.BroadcastStateExample" />
+        <item itemvalue="Application.AvgTimestampExample" />
+        <item itemvalue="Application.FakeWindowExample" />
+        <item itemvalue="Application.TwoStreamJoinExample" />
+        <item itemvalue="Application.PeriodicPVExample" />
       </list>
     </recent_temporary>
   </component>
@@ -183,8 +191,21 @@
       <workItem from="1668755491523" duration="5251000" />
       <workItem from="1668764030067" duration="5268000" />
       <workItem from="1668846873253" duration="3169000" />
-      <workItem from="1668908470339" duration="19748000" />
+      <workItem from="1668908470339" duration="20078000" />
+      <workItem from="1669001502590" duration="13093000" />
+      <workItem from="1669079515676" duration="11907000" />
+      <workItem from="1669167316009" duration="14105000" />
+      <workItem from="1669256050301" duration="10840000" />
+      <workItem from="1669340350031" duration="4756000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1668949366291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668949366291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +221,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/joisen/Test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
