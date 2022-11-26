@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToESTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToMySQLTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter05/SinkToRedisTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/AggregateFunctionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/FullWindowFunctionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/ProcessLateDataExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/UrlViewCountExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/WaterMarkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter06/WindowTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/EventTimeTimerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/ProcessFunctionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/ProcessingTimeTimerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/TopNKeyedProcessFunctionExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter07/TopNProcessAllWindowExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/BillCheckExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/ConnectTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/IntervalJoinExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/SplitStreamBySideOutputExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/SplitStreamTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/UnionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter08/WindowJoinExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/AvgTimestampExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/BroadcastStateExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/FakeWindowExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/KeyedStateTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/PeriodicPVExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter09/TwoStreamJoinExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/CommonApiTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/SimpleTableExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/TimeAndWindowTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -76,28 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.joisen.chapter11" />
       <recent name="org.joisen.chapter09" />
       <recent name="org.joisen.chapter07" />
       <recent name="org.joisen.chapter06" />
       <recent name="org.joisen.chapter05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BroadcastStateExample">
+  <component name="RunManager" selected="Application.TimeAndWindowTest">
     <configuration name="AvgTimestampExample" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.AvgTimestampExample" />
       <module name="FlinkTutorial" />
@@ -124,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FakeWindowExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.FakeWindowExample" />
+    <configuration name="CommonApiTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.CommonApiTest" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter09.*" />
+          <option name="PATTERN" value="org.joisen.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeriodicPVExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.PeriodicPVExample" />
+    <configuration name="SimpleTableExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.SimpleTableExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter09.*" />
+          <option name="PATTERN" value="org.joisen.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoStreamJoinExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.TwoStreamJoinExample" />
+    <configuration name="TimeAndWindowTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.TimeAndWindowTest" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter09.*" />
+          <option name="PATTERN" value="org.joisen.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +141,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CommonApiTest" />
+      <item itemvalue="Application.SimpleTableExample" />
+      <item itemvalue="Application.TimeAndWindowTest" />
       <item itemvalue="Application.BroadcastStateExample" />
       <item itemvalue="Application.AvgTimestampExample" />
-      <item itemvalue="Application.FakeWindowExample" />
-      <item itemvalue="Application.PeriodicPVExample" />
-      <item itemvalue="Application.TwoStreamJoinExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeAndWindowTest" />
+        <item itemvalue="Application.CommonApiTest" />
+        <item itemvalue="Application.SimpleTableExample" />
         <item itemvalue="Application.BroadcastStateExample" />
         <item itemvalue="Application.AvgTimestampExample" />
-        <item itemvalue="Application.FakeWindowExample" />
-        <item itemvalue="Application.TwoStreamJoinExample" />
-        <item itemvalue="Application.PeriodicPVExample" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +173,8 @@
       <workItem from="1669079515676" duration="11907000" />
       <workItem from="1669167316009" duration="14105000" />
       <workItem from="1669256050301" duration="10840000" />
-      <workItem from="1669340350031" duration="4756000" />
+      <workItem from="1669340350031" duration="4855000" />
+      <workItem from="1669425815661" duration="10483000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1668949366291</created>
@@ -205,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668949366291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1669384429665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669384429665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
