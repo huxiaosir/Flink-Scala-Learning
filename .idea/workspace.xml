@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/CommonApiTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/SimpleTableExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/TimeAndWindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/TopNExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/UdfTest_AggregateFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/UdfTest_ScalarFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/UdfTest_TableAggFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/UdfTest_TableFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/WindowTopNExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter12/LoginFailDetect.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter12/LoginFailDetectPro.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter12/NFAExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter12/OrderTimeOutDetect.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/TimeAndWindowTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/joisen/chapter11/TimeAndWindowTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/product/JAVA/Project/FlinkTutorial/src/main/scala/org/joisen/chapter12",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +75,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\product\JAVA\Project\FlinkTutorial\src\main\scala\org\joisen\chapter12" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.joisen.chapter11" />
       <recent name="org.joisen.chapter09" />
@@ -74,13 +86,13 @@
       <recent name="org.joisen.chapter05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeAndWindowTest">
-    <configuration name="AvgTimestampExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.AvgTimestampExample" />
+  <component name="RunManager" selected="Application.NFAExample">
+    <configuration name="LoginFailDetect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter12.LoginFailDetect" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter09.*" />
+          <option name="PATTERN" value="org.joisen.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BroadcastStateExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter09.BroadcastStateExample" />
+    <configuration name="LoginFailDetectPro" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter12.LoginFailDetectPro" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter09.*" />
+          <option name="PATTERN" value="org.joisen.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonApiTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.CommonApiTest" />
+    <configuration name="NFAExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter12.NFAExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter11.*" />
+          <option name="PATTERN" value="org.joisen.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTableExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.SimpleTableExample" />
+    <configuration name="OrderTimeOutDetect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter12.OrderTimeOutDetect" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.chapter11.*" />
+          <option name="PATTERN" value="org.joisen.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeAndWindowTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.TimeAndWindowTest" />
+    <configuration name="UdfTest_TableAggFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.chapter11.UdfTest_TableAggFunction" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -141,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CommonApiTest" />
-      <item itemvalue="Application.SimpleTableExample" />
-      <item itemvalue="Application.TimeAndWindowTest" />
-      <item itemvalue="Application.BroadcastStateExample" />
-      <item itemvalue="Application.AvgTimestampExample" />
+      <item itemvalue="Application.LoginFailDetect" />
+      <item itemvalue="Application.LoginFailDetectPro" />
+      <item itemvalue="Application.NFAExample" />
+      <item itemvalue="Application.OrderTimeOutDetect" />
+      <item itemvalue="Application.UdfTest_TableAggFunction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimeAndWindowTest" />
-        <item itemvalue="Application.CommonApiTest" />
-        <item itemvalue="Application.SimpleTableExample" />
-        <item itemvalue="Application.BroadcastStateExample" />
-        <item itemvalue="Application.AvgTimestampExample" />
+        <item itemvalue="Application.NFAExample" />
+        <item itemvalue="Application.LoginFailDetectPro" />
+        <item itemvalue="Application.OrderTimeOutDetect" />
+        <item itemvalue="Application.LoginFailDetect" />
+        <item itemvalue="Application.UdfTest_TableAggFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +186,10 @@
       <workItem from="1669167316009" duration="14105000" />
       <workItem from="1669256050301" duration="10840000" />
       <workItem from="1669340350031" duration="4855000" />
-      <workItem from="1669425815661" duration="10483000" />
+      <workItem from="1669425815661" duration="10659000" />
+      <workItem from="1669598262788" duration="5219000" />
+      <workItem from="1669624145718" duration="6558000" />
+      <workItem from="1669686543632" duration="9322000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1668949366291</created>
@@ -190,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669384429665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1669468135095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468135095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1669468156081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468156081</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
