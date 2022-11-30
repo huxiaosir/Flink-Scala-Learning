@@ -21,9 +21,40 @@ public class Test {
         }
         return Math.min(1, row[query_glass]);
     }
+    public static int minOperations(String s) {
+        // // 经过变换，s最终可以变成两种类型的交替字符串：以0开头和以1开头的两种，两种变换的最少次数之和为s的长度
+        // int res = 0;
+        // if(s.length() == 1) return res;
+        // for(int i = 0; i < s.length(); i++){
+        //     char cur = s.charAt(i);
+        //     if(cur != (char)('0' + i%2)) res ++;
+        // }
+        // return Math.min(res, s.length()-res);
+
+
+        // 解法二：
+        int res = 0;
+        char[] sc = s.toCharArray();
+        char pre = sc[0];
+        for(int i=1;i<sc.length;i++){
+            if(pre == sc[i]){
+                res ++;
+                pre = (char)(pre ^ 1);
+                System.out.println(pre);
+            }else{
+                pre = sc[i];
+            }
+        }
+        return Math.min(res, sc.length-res);
+    }
 
     public static void main(String[] args) {
-        double res = champagneTower(100000009, 33, 17);
-        System.out.println( res );
+//        double res = champagneTower(100000009, 33, 17);
+//        System.out.println( res );
+
+        String s = "10010100";
+        int res = minOperations(s);
+
+
     }
 }
