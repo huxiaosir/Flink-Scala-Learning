@@ -3,5 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/consumer-coProcessor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/consumer-coProcessor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project-TelecomService/src/main/resources" charset="UTF-8" />
   </component>
 </project>

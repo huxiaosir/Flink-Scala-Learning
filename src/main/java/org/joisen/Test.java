@@ -1,5 +1,9 @@
 package org.joisen;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 /**
  * @Author Joisen
  * @Date 2022/11/21 11:31
@@ -48,13 +52,34 @@ public class Test {
         return Math.min(res, sc.length-res);
     }
 
+    public char firstUniqChar(String s) {
+
+        if("".equals(s)) return ' ';
+
+        char[] arr = s.toCharArray();
+        int[] side = new int[26];
+        for(int i = 0; i < arr.length; i++){
+            int val = arr[i] - 'a';
+            side[val] ++;
+        }
+        for(char c: arr){
+            if(side[c - 'a'] == 1) return c;
+        }
+        return ' ';
+    }
+
     public static void main(String[] args) {
 //        double res = champagneTower(100000009, 33, 17);
 //        System.out.println( res );
 
-        String s = "10010100";
-        int res = minOperations(s);
+//        String s = "10010100";
+//        int res = minOperations(s);
+
+        int[] res = new int[]{5,5,34,45,2,6,8,3,8,9,60,1,34,52};
+        System.out.println(Arrays.stream(res).min().getAsInt());
 
 
     }
 }
+
+

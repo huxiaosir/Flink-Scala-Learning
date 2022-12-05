@@ -3,3 +3,7 @@ Bob, ./cart, 2000
 Alice, ./prod?id=1, 3000
 Mary, ./prod?id=2, 4000
 Bob, ./prod?id=3, 5000
+Mary, ./home, 6000
+Bob, ./cart, 7000
+Alice, ./prod?id=1, 8000
+Mary, ./prod?id=2, 9000
