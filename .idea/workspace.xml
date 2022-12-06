@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/ClickSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/SourceCustomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/SourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformFlatMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformReduceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformSimpleAggTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/wc_java/BatchWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/wc_java/BoundedStreamingWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/wc_java/StreamWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformPartitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter05/TransformRichFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/clicks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/clicks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +80,13 @@
       <recent name="org.joisen.chapter06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransformReduceTest">
-    <configuration name="TransformFilterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformFilterTest" />
+  <component name="RunManager" selected="Application.TransformPartitionTest">
+    <configuration name="BatchWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.wc_java.BatchWordCount" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter05.*" />
+          <option name="PATTERN" value="org.joisen.java.wc_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,21 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformFlatMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformFlatMapTest" />
-      <module name="FlinkTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransformMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformMapTest" />
+    <configuration name="TransformPartitionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformPartitionTest" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -139,6 +109,19 @@
     </configuration>
     <configuration name="TransformReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformReduceTest" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joisen.java.chapter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformRichFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter05.TransformRichFunction" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -164,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TransformFilterTest" />
-      <item itemvalue="Application.TransformFlatMapTest" />
-      <item itemvalue="Application.TransformMapTest" />
+      <item itemvalue="Application.BatchWordCount" />
+      <item itemvalue="Application.TransformPartitionTest" />
+      <item itemvalue="Application.TransformRichFunction" />
       <item itemvalue="Application.TransformReduceTest" />
       <item itemvalue="Application.TransformSimpleAggTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransformPartitionTest" />
+        <item itemvalue="Application.TransformRichFunction" />
+        <item itemvalue="Application.BatchWordCount" />
         <item itemvalue="Application.TransformReduceTest" />
         <item itemvalue="Application.TransformSimpleAggTest" />
-        <item itemvalue="Application.TransformFlatMapTest" />
-        <item itemvalue="Application.TransformFilterTest" />
-        <item itemvalue="Application.TransformMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +193,8 @@
       <workItem from="1670069057239" duration="1555000" />
       <workItem from="1670139053272" duration="10654000" />
       <workItem from="1670162180683" duration="737000" />
-      <workItem from="1670217836192" duration="11071000" />
+      <workItem from="1670217836192" duration="11132000" />
+      <workItem from="1670303422311" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1668949366291</created>
@@ -254,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669773407124</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <created>1670249896840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670249896840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
