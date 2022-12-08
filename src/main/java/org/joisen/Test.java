@@ -76,7 +76,9 @@ public class Test {
 //        int res = minOperations(s);
 
         int[] res = new int[]{5,5,34,45,2,6,8,3,8,9,60,1,34,52};
-        System.out.println(Arrays.stream(res).min().getAsInt());
+        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
+        System.out.println(Arrays.binarySearch(arr, 100));
+//        System.out.println(Arrays.stream(res).min().getAsInt());
 
 
     }
