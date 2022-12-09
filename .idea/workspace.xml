@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04468fca-a513-46a0-81f3-f4ecaf57cc1d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter07/TopNExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter07/TopNExample_ProcessAllWindowFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter08/BillCheckExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter08/ConnectStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter08/SplitStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter08/UnionStreamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/AverageTimestampExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/BufferingSinkExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/FakeWindowExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/PeriodicPvExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/joisen/java/chapter09/TwoStreamJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joisen/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +85,13 @@
       <recent name="org.joisen.chapter09" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BillCheckExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter08.BillCheckExample" />
+  <component name="RunManager" selected="Application.BufferingSinkExample">
+    <configuration name="AverageTimestampExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter09.AverageTimestampExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter08.*" />
+          <option name="PATTERN" value="org.joisen.java.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter08.ConnectStreamTest" />
+    <configuration name="AverageTimestampExample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter09.AverageTimestampExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter08.*" />
+          <option name="PATTERN" value="org.joisen.java.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter08.SplitStreamTest" />
+    <configuration name="AverageTimestampExample (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter09.AverageTimestampExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter08.*" />
+          <option name="PATTERN" value="org.joisen.java.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.Test" />
+    <configuration name="AverageTimestampExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter09.AverageTimestampExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.*" />
+          <option name="PATTERN" value="org.joisen.java.chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +138,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionStreamsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter08.UnionStreamsTest" />
+    <configuration name="BufferingSinkExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.chapter09.BufferingSinkExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.joisen.java.chapter08.*" />
+          <option name="PATTERN" value="org.joisen.java.chapter09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.StateTest" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joisen.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joisen.java.StateTest" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joisen.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BillCheckExample" />
-      <item itemvalue="Application.ConnectStreamTest" />
-      <item itemvalue="Application.SplitStreamTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.UnionStreamsTest" />
+      <item itemvalue="Application.AverageTimestampExample" />
+      <item itemvalue="Application.AverageTimestampExample (1)" />
+      <item itemvalue="Application.AverageTimestampExample (2)" />
+      <item itemvalue="Application.AverageTimestampExample (3)" />
+      <item itemvalue="Application.BufferingSinkExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BillCheckExample" />
-        <item itemvalue="Application.ConnectStreamTest" />
-        <item itemvalue="Application.UnionStreamsTest" />
-        <item itemvalue="Application.SplitStreamTest" />
+        <item itemvalue="Application.BufferingSinkExample" />
+        <item itemvalue="Application.AverageTimestampExample (3)" />
+        <item itemvalue="Application.AverageTimestampExample (2)" />
+        <item itemvalue="Application.AverageTimestampExample (1)" />
+        <item itemvalue="Application.AverageTimestampExample" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +228,8 @@
       <workItem from="1670303422311" duration="11343000" />
       <workItem from="1670328723276" duration="2738000" />
       <workItem from="1670378846098" duration="15162000" />
-      <workItem from="1670465631515" duration="15987000" />
+      <workItem from="1670465631515" duration="16102000" />
+      <workItem from="1670550714873" duration="14936000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1668949366291</created>
@@ -275,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670414907754</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1">
+      <created>1670503273941</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670503273941</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
