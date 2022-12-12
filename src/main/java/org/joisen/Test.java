@@ -68,6 +68,44 @@ public class Test {
         return ' ';
     }
 
+    public static int beautySum(String s) {
+        String str = "aabcb"; // len = 5;
+
+
+        int res = 0;
+        if(s.length() <= 3) return 0;
+        for(int i=0;i<=s.length() - 3;i++){
+            for(int j = i+3;j<=s.length();j++){
+                System.out.println(s.substring(i, j) + " ---> " + beauty(s.substring(i,j) ));
+                res += beauty(s.substring(i,j));
+            }
+        }
+        return res;
+    }
+
+    public static int beauty(String s){
+        int[] cnt = new int[26];
+        int max = 1, min=Integer.MAX_VALUE;
+        for(int i = 0; i < s.length(); i++){
+            cnt[s.charAt(i) - 'a']++;
+            max = Math.max(cnt[s.charAt(i)-'a'], max);
+        }
+        for(int i = 0; i< 26;i++){
+            if(cnt[i] != 0){
+                min = Math.min(cnt[i], min);
+            }
+        }
+        return max - min;
+    }
+
+    public static int getSum(int i){
+        int res = 0;
+        while(i != 0){
+            res += i % 10;
+            i = i/10;
+        }
+        return res;
+    }
     public static void main(String[] args) {
 //        double res = champagneTower(100000009, 33, 17);
 //        System.out.println( res );
@@ -75,12 +113,36 @@ public class Test {
 //        String s = "10010100";
 //        int res = minOperations(s);
 
-        int[] res = new int[]{5,5,34,45,2,6,8,3,8,9,60,1,34,52};
-        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
-        System.out.println(Arrays.binarySearch(arr, 100));
+//        int[] res = new int[]{5,5,34,45,2,6,8,3,8,9,60,1,34,52};
+//        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
+//        System.out.println(Arrays.binarySearch(arr, 100));
 //        System.out.println(Arrays.stream(res).min().getAsInt());
+//        int[] a = new int[]{1,2,3,4,5};
+//        int[] constructArr = constructArr(a);
+
+//        String s = "xzvfsppsjfbxdwkqe";
+//        System.out.println("----------" + beautySum(s) + "----------");
 
 
+        System.out.println(getSum(11));
+
+
+    }
+    public static int[] constructArr(int[] a) {
+        int n = a.length;
+        int[] B = new int[n];
+        for (int i = 0, product = 1; i < n; product *= a[i], i++)       /* 从左往右累乘 */
+            B[i] = product;
+        for (int i : B) {
+            System.out.print(i + "--");
+        }
+        System.out.println();
+        for (int i = n - 1, product = 1; i >= 0; product *= a[i], i--)  /* 从右往左累乘 */
+            B[i] *= product;
+        for (int i : B) {
+            System.out.print(i + "--");
+        }
+        return B;
     }
 }
 
