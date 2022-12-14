@@ -1,8 +1,6 @@
 package org.joisen;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @Author Joisen
@@ -106,6 +104,43 @@ public class Test {
         }
         return res;
     }
+    public static String minNumber(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> tmp = new ArrayList<>();
+        boolean[] visited = new boolean[nums.length];
+        Arrays.sort(nums); // 排序
+        backTrack(res,tmp,nums,0,visited);
+
+        String ret = String.valueOf(Double.MAX_VALUE);
+        for(List<Integer> tp: res){
+            System.out.println(tp);
+            StringBuilder sb = new StringBuilder();
+            for(int num: tp){
+                sb.append(num);
+            }
+            System.out.println("sb:::"+sb.toString());
+            if(Double.parseDouble(ret) > Double.parseDouble(sb.toString()))
+                ret = sb.toString();
+        }
+        return ret;
+    }
+    public static void backTrack(List<List<Integer>> res,List<Integer> tmp,int[] nums,int idx,boolean[] visited){
+        if(idx == nums.length){
+            res.add(new ArrayList<>(tmp));
+            return;
+        }
+        for(int i =0;i < nums.length;i++){
+            if(visited[i]){
+                continue;
+            }
+            tmp.add(nums[i]);
+            visited[i] = true;
+            backTrack(res,tmp,nums,idx+1,visited);
+            visited[i] = false;
+            tmp.remove(idx);
+        }
+    }
+
     public static void main(String[] args) {
 //        double res = champagneTower(100000009, 33, 17);
 //        System.out.println( res );
@@ -122,10 +157,10 @@ public class Test {
 
 //        String s = "xzvfsppsjfbxdwkqe";
 //        System.out.println("----------" + beautySum(s) + "----------");
-
-
-        System.out.println(getSum(11));
-
+//        int[] nums = new int[]{3,30,34,5,9};
+        int[] nums = new int[]{999999998,999999997,999999999};
+        String s = minNumber(nums);
+        System.out.println(s);
 
     }
     public static int[] constructArr(int[] a) {
